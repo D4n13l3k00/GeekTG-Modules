@@ -1,0 +1,17 @@
+[project]
+name = "geektg-modules"
+version = "0.1.0"
+description = "GeekTG modules development environment"
+requires-python = ">=3.13"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "friendly-telegram @ git+https://github.com/D4n13l3k00/GeekTG",
+    "fake-useragent",
+    "Pillow",
+    "aioboto3",
+    "ShazamAPI",
+    "moviepy",
+    "httpx",
+]
